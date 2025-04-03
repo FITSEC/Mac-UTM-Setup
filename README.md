@@ -8,7 +8,7 @@ Download Ubuntu LTS Server 22.04.5 for AArch64 [here](https://cdimage.ubuntu.com
 Download and install the latest version of UTM [here](https://mac.getutm.app)
 
 Install UTM by opening the DMG file and dragging the application into the applications folder  
-![][/images/image1.png]  
+![](/images/image1.png)  
 Once copied, unmount the UTM drive from Finder or your Desktop and move the DMG file to the trash.
 
 ## Installation
