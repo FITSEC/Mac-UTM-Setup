@@ -14,13 +14,13 @@ Once copied, unmount the UTM drive from Finder or your Desktop and move the DMG 
 ## Installation
 
 Open UTM from spotlight search or the applications folder.  
-![][/images/image2.png]  
+![](/images/image2.png)  
 **Select “Create a New Virtual Machine”**  
-![][/images/image3.png]  
+![](/images/image3.png)  
 **Select “Virtualize”**  
-**![][/images/image4.png]**  
+**![](/images/image4.png)**  
 **Select “Linux”**  
-**![][/images/image5.png]**  
+**![](/images/image5.png)**  
 **Enable “Use Apple Virtualization”, “Enable Rosetta (x86\_64 Emulation)**  
 **Under “Boot ISO Image”, select “Browse..” and locate and select your previously downloaded Ubuntu ISO**
 
@@ -29,7 +29,7 @@ Open UTM from spotlight search or the applications folder.
 **Boot up your virtual machine via the Start/Play button.**
 
 **Continue through the prompts and be sure to select the following when it appears**   
-**![][/images/image6.png]**
+**![](/images/image6.png)**
 
 **Once complete, select reboot.**  
 **After rebooting, you may remove the Ubuntu ISO from UTM’s homepage.**
@@ -39,7 +39,7 @@ Open UTM from spotlight search or the applications folder.
 **ifconfig**
 
 **Obtaining the ip address of the virtual machine:**  
-**![][/images/image7.png]**  
+**![](/images/image7.png)**  
 *Ex: 192.168.64.4*
 
 **Run the following command to logout of the current session**
@@ -51,7 +51,7 @@ Open UTM from spotlight search or the applications folder.
 **ssh \<username\>@\<ip\>**
 
 **Enter your password when prompted**  
-**![][/images/image8.png]**  
+**![](/images/image8.png)**  
 *Ex: ssh pierson@192.168.64.4*
 
 **Once logged-in, run the following commands**
@@ -97,7 +97,7 @@ Run the following command to logout of root:
 From [this](https://docs.getutm.app/advanced/rosetta/) website, find the command listed under the “Enabling Rosetta”   
 Copy the command and run it on your virtual machine
 
-![][/images/image9.png]
+![](/images/image9.png)
 
 ## Using GDB
 
@@ -127,7 +127,7 @@ In the 2nd terminal, run the following:
 
 (gdb) target remote localhost:1234
 
-![][/images/image10.png]  
+![](/images/image10.png)  
 You can begin running the program with C in the gdb terminal, the rest of GDB should function as intended.
 
 ## Copying files to the Virtual Machine
